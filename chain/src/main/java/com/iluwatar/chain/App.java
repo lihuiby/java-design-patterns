@@ -30,9 +30,9 @@ package com.iluwatar.chain;
  * chain. A mechanism also exists for adding new processing objects to the end of this chain.
  *
  * <p>In this example we organize the request handlers ({@link RequestHandler}) into a chain where
- * each handler has a chance to act on the request on its turn. Here the king ({@link OrcKing})
+ * each handlerOrder has a chance to act on the request on its turn. Here the king ({@link OrcKing})
  * makes requests and the military orcs ({@link OrcCommander}, {@link OrcOfficer}, {@link
- * OrcSoldier}) form the handler chain.
+ * OrcSoldier}) form the handlerOrder chain.
  */
 public class App {
 
